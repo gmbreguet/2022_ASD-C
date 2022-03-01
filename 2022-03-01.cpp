@@ -5,6 +5,7 @@
 using namespace std;
 
 //------------------------------------------------------
+// https://stackoverflow.com/questions/20244743/pass-iterator-as-a-function-parameter
 template<typename Iterator>
 void f(Iterator& it) {
    cout << (*it) << endl;
