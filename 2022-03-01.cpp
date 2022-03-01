@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 //------------------------------------------------------
 template<typename Iterator>
 void f(Iterator& it) {
@@ -12,6 +11,7 @@ void f(Iterator& it) {
    ++it;
    cout << (*it) << endl;
 }
+
 //------------------------------------------------------
 int main () {
 
