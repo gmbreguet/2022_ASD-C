@@ -20,8 +20,6 @@ int main () {
    f(it);
    cout << (*it) << endl;
 
-//   f(4);
-
    return EXIT_SUCCESS;
 }  // main
 
